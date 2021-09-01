@@ -1,3 +1,17 @@
+#!/bin/bash
+
+if ! [ -e ~/files/$1/$2/*.osm ]
+then
+    echo Error, no osm found
+    exit
+fi
+
+if ! [ -e ~/files/$1/$2/*.epw ]
+then
+    echo Error, no weather file found
+    exit
+fi
+
 if ! [[ -d ~/sim/$1/$2 ]]
 then
     mkdir ~/sim
