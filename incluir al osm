@@ -1,4 +1,4 @@
-  OS:Output:Variable,
+OS:Output:Variable,
   {13c85d8c-7775-44c8-bd4f-8bdefab178b1}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
