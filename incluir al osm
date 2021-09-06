@@ -1,0 +1,22 @@
+  OS:Output:Variable,
+  {13c85d8c-7775-44c8-bd4f-8bdefab178b1}, !- Handle
+  Output Variable 1,                      !- Name
+  *,                                      !- Key Value
+  Zone Ideal Loads Zone Sensible Cooling Rate, !- Variable Name
+  Hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {a160f713-da88-4d8e-9f9c-dd9a6208c155}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Ideal Loads Zone Latent Cooling Rate, !- Variable Name
+  Hourly;                                 !- Reporting Frequency
+
+OS:Output:Variable,
+  {31f992bc-707e-4d99-a181-d4d196813a2e}, !- Handle
+  Output Variable 3,                      !- Name
+  *,                                      !- Key Value
+  Zone Ideal Loads Zone Total Cooling Rate, !- Variable Name
+  Hourly;                                 !- Reporting Frequency
+  
+  !- Incluir antes de OS:Timestep,
