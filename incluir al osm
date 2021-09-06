@@ -18,5 +18,3 @@ OS:Output:Variable,
   *,                                      !- Key Value
   Zone Ideal Loads Zone Total Cooling Rate, !- Variable Name
   Hourly;                                 !- Reporting Frequency
-  
-  !- Incluir antes de OS:Timestep,
